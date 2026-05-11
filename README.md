@@ -5,25 +5,25 @@ Welcome to my detailed project showcase. Here, I break down the technical decisi
 
 ### 📁 Featured Project
 
-#### 1. [The Movie App - Entertainment]
-*A movie application fouces on smooth UI transitions and real-time tracking.*
+#### 1. [Cinemax App - Entertainment]
+*A movie provides a seamless user experience for discovering movies, managing watchlists, and viewing detailed information using the TMDB API.*
 
 #### 🛠️ Techinical Stack
-- **UI:** UIKit (Programmatic UI)
-- **Architecture:** MVVM-C (Coordinator Pattern)
-- **Networking:** Alamofire + Codable
+- **UI:** SwiftUI
+- **Architecture:** Clean Architecture
+- **Networking:** URLSession + Codable
 - **Local DB:** Core Data for offline support
 
 #### 🧠 Key Architectural Decisions
-- **Coordinator Pattern:** This pattern, which is not often used by juniors, is used to remove navigation logic from the view controller. 
+- **Clean Architecture:**  Domain, Data, and Presentation layers for high testability and separation of concerns. 
 - **Dependency Injection:**  Protocol-based DI is used to make the code easier to test.
 
 #### 📺 Demo & Screenshots
-|Splash & Home | Movie List & Movie Detail | Search & Filter
-| --- | --- | --- |
-| ![Home]() | ![Movie]() | ![Search]()
+| Home | Search | Movie Details | Watchlist |
+|---|---|---|---|
+| <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-05-12 at 00 22 49" src="https://github.com/user-attachments/assets/32c73bf2-a9a6-4060-826e-3655e5cce815" /> | <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-05-12 at 00 24 11" src="https://github.com/user-attachments/assets/707e8e55-233f-4f27-87d9-bc38cec5f78c" /> | <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-05-12 at 00 26 50" src="https://github.com/user-attachments/assets/9ed82326-7b85-473a-9085-95b71aa1f0d1" /> | <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-05-12 at 00 29 02" src="https://github.com/user-attachments/assets/eda4bf8f-93e4-4a94-a223-ecb061371328" /> |
 
-🔗 [View Sorurce Code]()
+🔗 [[View Sorurce Code]()](https://github.com/kiyotaka-kirito/Cinemax.git)
 
 ---
 
