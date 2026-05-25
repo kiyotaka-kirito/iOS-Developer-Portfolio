@@ -27,7 +27,7 @@ Welcome to my detailed project showcase. Here, I break down the technical decisi
 
 ---
 
-#### 1. [Vigil - Personal Finance Tracker]
+#### 2. [Vigil - Personal Finance Tracker]
 *A secure, native iOS app for tracking expenses, managing budgets, and visualizing financial data.*
 
 #### 🛠 Technical Stack
@@ -48,6 +48,28 @@ Welcome to my detailed project showcase. Here, I break down the technical decisi
 🔗 https://github.com/yourusername/Vigil.git
 
 ---
+
+#### 3. [Lamp - E-Commerce]
+*A scalable iOS storefront application featuring dynamic product discovery, smart cart management, and user authentication.*
+
+#### 🛠 Technical Stack
+- **Framework:** UIKit
+- **Architecture:** Clean Architecture (MVVM-C)
+- **Reactive:** Combine (for state binding and API calls)
+- **Database:** CoreData (for local cart storage)
+
+#### 🚀 Challenges & Solutions
+- **Challenge:** Managing complex navigation flows (e.g., from Cart to Checkout) and avoiding massive, tightly coupled ViewControllers.
+- **Solution:** Implemented the **Coordinator pattern (MVVM-C)** to handle all routing logic externally, keeping ViewControllers lightweight, reusable, and highly testable.
+
+#### 📺 Demo & Screenshots
+| Products & Search | Product Details | My Cart | Checkout & Auth |
+|---|---|---|---|
+| <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-05-25 at 20 38 53" src="https://github.com/user-attachments/assets/14f296bb-0df9-427c-9287-be6697867e1b" /> | <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-05-25 at 20 40 00" src="https://github.com/user-attachments/assets/d5bac43d-cc19-4904-9e08-9da2812d4076" /> | <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-05-25 at 20 40 46" src="https://github.com/user-attachments/assets/0e407d4d-2138-4367-85c6-eb342d1017c1" /> | <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-05-25 at 20 41 24" src="https://github.com/user-attachments/assets/4e610da7-bdf6-4e8c-a2ff-04d3cc42a30c" /> |
+
+🔗 https://github.com/kiyotaka-kirito/Lamp.git
+
+--- 
 
 #### 🧪 Technical Skills & Standards
 Even though I am a junior, I pay attention to the things that seniors watch out for:
